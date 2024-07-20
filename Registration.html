@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="Mystyles.css">
+        <style>
+            body{
+            background-image:url("Register1.jpg");
+            background-repeat:no-repeat;
+            background-size: cover;
+            font-size: larger;
+            }
+            section{
+                padding-left:500px;
+                padding-top: 30px;
+            }
+            h1{
+                color: antiquewhite;
+            }
+            .container{
+                width: 180px; 
+                height: 28px; 
+                border-radius: 10px;
+            }
+        </style>
+    </head>
+    <body>
+            <nav>
+                <ul>
+                    <strong><li><a href="Home.html">Home</a></li></strong>
+                    <strong><li><a href=".\About.html">About</a></li></strong>
+                    <strong><li><a href=".\Contact.html">Contact</a></li></strong>
+                    <strong><li><a href=".\Registration.html">Sign-in</a></li></strong>
+                    <strong><li><a href=".\Login.html">Login</a></li><br></strong>
+                </ul>
+                </nav>
+        <h1>REGISTRATION FORM</h1>
+        <section>
+       <input type=text name=Username placeholder="User Name" class=container required><br><br>
+       <input list="email" name="mymails" placeholder="Email" class=container required><br><br>
+       <datalist id="email" class=container required>
+            <option value="harshi@gmail.com"></option>
+            <option value="harshitha@gmail.com"></option>
+            <option value="harshit@gmail.com"></option>
+       </datalist>
+       <input type=password name=pword placeholder="Password" class=container required><br><br>
+       <input type=text placeholder=Address class=container><br><br>
+       <input type="tel" name="personal" id="per1" pattern="[0-9]{10}" class=container title="the ten digits number" placeholder="Mobile number"><br><br>
+       <input type="date" name="dob" class=container><br><br>
+       <input type=radio name=Gender value=M>Male
+       <input type=radio name=Gender value=F>Female<br><br>
+       Branch:<select name="Branch">
+                    <option value="1">CSE</option>
+                    <option value="2">CSD</option>
+                    <option value="3">CSM</option>
+                    <option value="4">EEE</option>
+                    <option value="5">MECH</option>
+                    <option value="6">ECE</option>
+                </select> <br><br>
+        Languages:<br><br>
+        <input type="checkbox" name="C">C<br>
+        <input type="checkbox" name="C++">C++<br>
+        <input type="checkbox" name="Python">Python<br>
+        <input type="checkbox" name="Java">Java<br><br>
+        <input type="submit">
+        </section>
+        <footer>&copy;Events Site 2024.All rights are reserved..</footer>
+    </body>
+</html>

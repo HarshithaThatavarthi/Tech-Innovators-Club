@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>Login Page</title>
+        <link rel="stylesheet" href="Mystyles.css">
+        <style>
+            body{
+            background-image:url("loginbg.jpeg");
+            background-repeat:no-repeat;
+            background-size: cover;
+            padding-top:50px;
+            }
+            div{
+                padding-top: 10px;
+                padding-bottom:20px;
+                padding-left:490px;
+               width:200px;
+               height:200;
+               
+            }
+            .b{
+                background-color:rgb(148, 222, 235);
+                height:20px;
+                width:100px;
+            }
+            .container{
+                width: 180px; 
+                height: 28px; 
+                border-radius: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <strong><li><a href="Home.html">Home</a></li></strong>
+                <strong><li><a href=".\About.html">About</a></li></strong>
+                <strong><li><a href=".\Contact.html">Contact</a></li></strong>
+                <strong><li><a href=".\Registration.html">Sign-in</a></li></strong>
+                <strong><li><a href=".\Login.html">Login</a></li><br></strong>
+            </ul>
+            </nav>
+       <form action="Loginsuccess.html">
+        <div>
+            <h2>Login</h2>
+        <input type="text" name="uname" placeholder="UserName" class=container autofocus><br><br>
+        <input list="email" name="mymails" placeholder="Email" class=container><br><br>
+        <datalist id="email" required class=container>
+            <option value="harshi@gmail.com"></option>
+            <option value="harshitha@gmail.com"></option>
+            <option value="harshit@gmail.com"></option>
+       </datalist>
+        <input type="password" name="pword" placeholder="Password" class=container><br><br>
+        <input class="b" type="submit" value="submit">
+        </div>
+    </form>
+    </body>
+</html>
